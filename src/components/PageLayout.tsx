@@ -31,7 +31,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
         <ScrollAnimation delay={0.2}>
           <div className="w-full pb-6 md:pb-8 px-4 md:px-8 lg:px-16 relative overflow-hidden">
             <div
-              className="text-[120px] sm:text-[180px] md:text-[240px] lg:text-[320px] font-bold text-black text-center leading-none font-brand"
+              className="text-[120px] sm:text-[150px] md:text-[240px] lg:text-[320px] font-bold text-black text-center leading-none font-brand"
               style={{
                 maskImage:
                   'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.4) 60%, transparent 100%)',

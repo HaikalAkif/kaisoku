@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Poppins } from "next/font/google";
-import Script from "next/script";
 import LenisProvider from "@/components/LenisProvider";
 import StructuredData from "@/components/StructuredData";
 import "./globals.css";
@@ -78,8 +77,8 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/images/favicon.png",
+    apple: "/images/favicon.png",
   },
 };
 
