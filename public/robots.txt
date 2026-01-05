@@ -1,0 +1,28 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /pricing
+Allow: /how-it-works
+Allow: /integrations
+Allow: /problem-solution
+Allow: /faqs
+Allow: /privacy
+Allow: /terms
+
+# Sitemap location
+Sitemap: https://kaisoku.com/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
